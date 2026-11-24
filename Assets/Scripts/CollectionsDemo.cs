@@ -18,16 +18,6 @@ public class CollectionsDemo : MonoBehaviour
     private void Start()
     {
         AddItem("Чай");
-        AddItem("Хлеб");
-        AddItem("Чай");
-        AddItem("Чай");
-        AddItem("Колбаса");
-        AddItem("Хлеб");
-        ViewLog("green");
-        RemoveItems("Хлеб");
-        ViewLog("yellow");
-        RemoveItemsSecondVariant("Чай");
-        ViewLog("red");
     }
 
     // [learn] Только читаем список и ничего в нём не меняем, поэтому foreach: короче и нет возни с индексами.
